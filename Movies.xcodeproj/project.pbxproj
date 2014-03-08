@@ -14,13 +14,15 @@
 		CEEB70F018C58EDA0036B83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB70EF18C58EDA0036B83F /* main.m */; };
 		CEEB70F418C58EDA0036B83F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB70F318C58EDA0036B83F /* AppDelegate.m */; };
 		CEEB70F718C58EDA0036B83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB70F518C58EDA0036B83F /* Main.storyboard */; };
-		CEEB70FA18C58EDA0036B83F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB70F918C58EDA0036B83F /* ViewController.m */; };
 		CEEB70FC18C58EDA0036B83F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB70FB18C58EDA0036B83F /* Images.xcassets */; };
 		CEEB710318C58EDA0036B83F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEB710218C58EDA0036B83F /* XCTest.framework */; };
 		CEEB710418C58EDA0036B83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEB70E318C58ED90036B83F /* Foundation.framework */; };
 		CEEB710518C58EDA0036B83F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEB70E718C58ED90036B83F /* UIKit.framework */; };
 		CEEB710D18C58EDA0036B83F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEEB710B18C58EDA0036B83F /* InfoPlist.strings */; };
 		CEEB710F18C58EDA0036B83F /* MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB710E18C58EDA0036B83F /* MoviesTests.m */; };
+		CEEB711A18C590BF0036B83F /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB711918C590BF0036B83F /* MoviesViewController.m */; };
+		CEEB711D18C590DB0036B83F /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB711C18C590DB0036B83F /* DetailsViewController.m */; };
+		CEEB712018C592400036B83F /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB711F18C592400036B83F /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		CEEB70F218C58EDA0036B83F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEEB70F318C58EDA0036B83F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEEB70F618C58EDA0036B83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEEB70F818C58EDA0036B83F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEEB70F918C58EDA0036B83F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEEB70FB18C58EDA0036B83F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEEB710118C58EDA0036B83F /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEB710218C58EDA0036B83F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CEEB710A18C58EDA0036B83F /* MoviesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviesTests-Info.plist"; sourceTree = "<group>"; };
 		CEEB710C18C58EDA0036B83F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEEB710E18C58EDA0036B83F /* MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesTests.m; sourceTree = "<group>"; };
+		CEEB711818C590BF0036B83F /* MoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		CEEB711918C590BF0036B83F /* MoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		CEEB711B18C590DB0036B83F /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		CEEB711C18C590DB0036B83F /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		CEEB711E18C592400036B83F /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		CEEB711F18C592400036B83F /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				CEEB70F218C58EDA0036B83F /* AppDelegate.h */,
 				CEEB70F318C58EDA0036B83F /* AppDelegate.m */,
 				CEEB70F518C58EDA0036B83F /* Main.storyboard */,
-				CEEB70F818C58EDA0036B83F /* ViewController.h */,
-				CEEB70F918C58EDA0036B83F /* ViewController.m */,
 				CEEB70FB18C58EDA0036B83F /* Images.xcassets */,
 				CEEB70EA18C58EDA0036B83F /* Supporting Files */,
+				CEEB711818C590BF0036B83F /* MoviesViewController.h */,
+				CEEB711918C590BF0036B83F /* MoviesViewController.m */,
+				CEEB711B18C590DB0036B83F /* DetailsViewController.h */,
+				CEEB711C18C590DB0036B83F /* DetailsViewController.m */,
+				CEEB711E18C592400036B83F /* Movie.h */,
+				CEEB711F18C592400036B83F /* Movie.m */,
 			);
 			path = Movies;
 			sourceTree = "<group>";
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEB70FA18C58EDA0036B83F /* ViewController.m in Sources */,
+				CEEB711D18C590DB0036B83F /* DetailsViewController.m in Sources */,
 				CEEB70F418C58EDA0036B83F /* AppDelegate.m in Sources */,
+				CEEB712018C592400036B83F /* Movie.m in Sources */,
 				CEEB70F018C58EDA0036B83F /* main.m in Sources */,
+				CEEB711A18C590BF0036B83F /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

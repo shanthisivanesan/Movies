@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailsViewController.h
 //  Movies
 //
 //  Created by user on 3/3/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "Movie.h"
+@interface DetailsViewController : UIViewController
+@property (nonatomic, strong) Movie *movie;
 
 @end
